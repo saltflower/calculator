@@ -1,3 +1,8 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -10,6 +15,9 @@ body {
     display: flex;
     flex-direction: column;
     align-self: center;
+    background-color: grey;
+    padding: 0.5rem;
+    border-radius: 5px;
 }
 
 .buttons {
