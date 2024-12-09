@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    width: auto;
+    justify-self: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.special {
+    display: flex;
+    max-width: 6rem;
+    flex-grow: 1;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 6rem;
+    flex-grow: 1;
+}
+
+.number {
+    width: 2rem;
+}
+
+#zero {
+    display: flex;
+    flex-grow: 4;
+
+}
+
+.operators {
+    display: flex;
+    width: 2rem;
+    flex-grow: 0;
+    flex-direction: column;
+}
